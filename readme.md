@@ -27,6 +27,13 @@ Math 54 typically covers:
 
 ---
 
+## 🔗 Important Links
+
+Here are some of the important links for Math 54 (Sharma)
+- https://www.ocf.berkeley.edu/~asharma/Math54/
+
+---
+
 ## ⚠️ Disclaimer
 
 These notes are for **educational and personal reference only**.  

@@ -1,3 +1,87 @@
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{graphicx}
+% -----------------------------
+% Packages
+% -----------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[most]{tcolorbox}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{physics}          % Derivatives, vector notation, etc.
+\usepackage{bm}               % Bold math symbols
+\usepackage{cancel}           % For striking out terms
+\usepackage{xcolor}           % For highlighting
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}             % Diagrams
+\usepackage{tikz-3dplot}
+\tdplotsetmaincoords{70}{110}
+\usepackage{enumitem}         % Customizable lists
+\usepackage{hyperref}         % Clickable references
+\usepackage{geometry}         % Page margins
+
+% -----------------------------
+% Geometry
+% -----------------------------
+\geometry{margin=1in}
+
+% -----------------------------
+% Theorem / Definition Styles
+% -----------------------------
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+
+% -----------------------------
+% Common Sets
+% -----------------------------
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+
+% -----------------------------
+% Linear Algebra Shortcuts
+% -----------------------------
+\newcommand{\vect}[1]{\mathbf{#1}}          % Vectors in bold
+\newcommand{\mat}[1]{\mathbf{#1}}           % Matrices in bold
+\newcommand{\inv}{^{-1}}                    % Inverse
+\DeclareMathOperator{\Span}{span}
+\DeclareMathOperator{\nullity}{nullity}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\Det}{det}
+
+% -----------------------------
+% Differential Equations Shortcuts
+% -----------------------------
+\newcommand{\ddx}{\frac{d}{dx}}
+\newcommand{\ddy}[1]{\frac{d}{d#1}}
+\newcommand{\ppx}{\frac{\partial}{\partial x}}
+\newcommand{\ppy}[1]{\frac{\partial}{\partial #1}}
+
+% Dot notation for ODEs
+\newcommand{\dotx}{\dot{x}}
+\newcommand{\doty}{\dot{y}}
+\newcommand{\dotz}{\dot{z}}
+
+% -----------------------------
+% Hyperref Setup
+% -----------------------------
+\hypersetup{
+    colorlinks = true,
+    linkcolor  = blue,
+    urlcolor   = teal,
+    citecolor  = magenta
+}
+
+% -----------------------------
+% Stylistic Options and Aux Settings
+% -----------------------------
+
+\setlength{\parindent}{0pt}
+\allowdisplaybreaks
+\tcbset{problem/.style={colback=Gray!20, colframe=Black, breakable, enhanced jigsaw, arc=0.5mm, boxrule=0.5pt}}
