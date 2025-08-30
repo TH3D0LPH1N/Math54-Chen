@@ -9,7 +9,7 @@ It’s intended as a resource for review and self-study.
 
 - **Lecture Notes** – Organized by week and topic, summarizing key concepts.  
 - **Homework Guides** – Worked-out solutions to assigned problem sets.  
-- **Study Guides** – Condensed review materials for midterms and finals.
+- **Study Material** – Condensed review materials for midterms and finals.
 
 ---
 
